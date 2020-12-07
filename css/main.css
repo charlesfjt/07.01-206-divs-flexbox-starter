@@ -106,7 +106,12 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  background: darkgrey;
+  background: rgba(206, 203, 203, 0.5);
+}
+.intro{
+  background: linear-gradient(to bottom, rgb(104, 160, 151), rgb(121, 112, 202));
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .wrapper {
@@ -124,7 +129,7 @@ body {
   align-items: center;
   line-height: 1.5em;
   font-size: .8em;
-  background-color: darkgrey;
+  background-color: rgba(170, 135, 135, 0.432);
   height: 200px;
   width: 30%;
   padding: 0 1em 0;
@@ -133,7 +138,16 @@ body {
   border-left: 1px solid;
 }
 
-
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto;
+}
+footer img{
+  padding: 0 1em;
+  width: 3%;
+}
 
 
 /* ==========================================================================
