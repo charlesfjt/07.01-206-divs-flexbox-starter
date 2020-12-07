@@ -106,6 +106,7 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background: darkgrey;
 }
 
 .wrapper {
@@ -122,10 +123,14 @@ body {
   justify-content: center;
   align-items: center;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: .8em;
+  background-color: darkgrey;
+  height: 200px;
   width: 30%;
+  padding: 0 1em 0;
+}
+.div-2, .div-3{
+  border-left: 1px solid;
 }
 
 
